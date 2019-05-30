@@ -11,7 +11,7 @@ def batch_badge_creator(attendees)
   badge_messages = Array.new 
   
   attendees.each do |attendee|
-    puts badge_maker(attendee)
+    badge_messages << ""
   end
   
 end
