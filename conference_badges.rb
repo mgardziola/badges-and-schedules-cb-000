@@ -33,7 +33,7 @@ def assign_rooms(attendees)
   
 end
 
-def printer
-  puts badge_messages
-  puts welcome_messages 
+def printer(attendees)
+  puts badge_messages(attendees)
+  puts welcome_messages(attendees)
 end
